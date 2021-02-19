@@ -13,9 +13,10 @@ body {
 
 .main {
   height: 30rem;
-  padding-top: 1rem;
-  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png");
+  padding-top: 10rem;
+  background-image: url("/Users/damiancoz/Documents/webdev/codecademy/html-css/tsunami-coffee/images/la-menorquina.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .main img {
@@ -23,6 +24,10 @@ body {
   display: block;
   margin: auto;
   margin-top: 5rem;
+}
+
+.container ul {
+  text-align: right;
 }
 
 nav {
@@ -39,6 +44,7 @@ ul {
 li {
   display: inline-block;
   padding: 0.75rem 1.25rem;
+  text-align: right;
 }
 
 .supporting,
